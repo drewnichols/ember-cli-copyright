@@ -1,25 +1,23 @@
-# Ember-cli-copyright
+# ember-cli-copyright
 
-This README outlines the details of collaborating on this Ember addon.
+ember-cli-copyright is a revolutionary ember-cli addon allowing you to never update the copyright year on your ember cli applications footer again.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+The best way to install is to use the ember-cli install:addon command like this. 
+```
+ember install:addon ember-cli-copyright
+```
+Are there other ways? I really don't konw. 
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+In your application's footer add the following
 
-## Running Tests
+```
+{{{copyright}}}
+```
 
-* `ember test`
-* `ember test --server`
+This will produce the copyright symbol with the current date required in all web application footers by our bosses. 
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+why? i don't know.
