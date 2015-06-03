@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-copyright",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.1",
+  "description": "Revolutionary ember-cli addon allowing users to never update their site footer copyright date again.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/drewnichols/ember-cli-copyright",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Drew Nichols, LiftForward",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
