@@ -4,11 +4,24 @@ ember-cli-copyright is a revolutionary ember-cli addon allowing you to never upd
 
 ## Installation
 
-The best way to install is to use the ember-cli install:addon command like this. 
+The best way to install is to use the ember-cli install command like this. 
+```
+ember install ember-cli-copyright
+```
+or if for some reason that doesn't work 
 ```
 ember install:addon ember-cli-copyright
 ```
-Are there other ways? I really don't konw. 
+or if you're really old school
+```
+npm install ember-cli-copyright --save-dev
+```
+
+None of those work? 
+
+```
+you're on your own 
+```
 
 ## Usage
 
