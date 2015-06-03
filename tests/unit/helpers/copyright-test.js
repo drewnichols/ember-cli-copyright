@@ -7,10 +7,6 @@ test('it displays a copyright symbol with current year by default', function(ass
   assert.equal(copyright(), "&copy; " + currentYear());
 });
 
-test('it does not display current year when currentYear=false', function(assert) {
-  assert.equal(copyright(null, {currentYear:false}), "&copy;");
-});
-
 function currentYear() {
   return new Date().getFullYear();
 }

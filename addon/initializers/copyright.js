@@ -1,5 +1,8 @@
+import Ember from 'ember';
+import {copyright} from 'ember-cli-copyright/helpers/copyright';
+
 export function initialize(/* container, application */) {
-  // application.inject('route', 'foo', 'service:foo');
+  Ember.Handlebars.helper('copyright', copyright);
 }
 
 export default {

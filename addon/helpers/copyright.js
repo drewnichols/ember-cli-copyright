@@ -1,17 +1,7 @@
 import Ember from 'ember';
 
-export function copyright(params, options) {
-  var currentYear = true; 
-
-  if (options && options.currentYear === false) {
-    currentYear = false;
-  }
-
-  if (currentYear) {
-    return "&copy; " + new Date().getFullYear();
-  } else {
-    return "&copy;";
-  }
+export function copyright() {
+  return "&copy; " + new Date().getFullYear();
 }
 
 export default Ember.HTMLBars.makeBoundHelper(copyright);
