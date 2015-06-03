@@ -3,8 +3,14 @@ import { module, test } from 'qunit';
 
 module('Unit | Helper | copyright');
 
-// Replace this with your real tests.
-test('it works', function(assert) {
-  var result = copyright(42);
-  assert.ok(result);
+test('it displays a copyright symbol with current year by default', function(assert) {
+  assert.equal(copyright(), "&copy; " + currentYear());
 });
+
+test('it does not display current year when currentYear=false', function(assert) {
+  assert.equal(copyright(null, {currentYear:false}), "&copy;");
+});
+
+function currentYear() {
+  return new Date().getFullYear();
+}
