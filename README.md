@@ -18,6 +18,6 @@ In your application's footer add the following
 {{{copyright}}}
 ```
 
-This will produce the copyright symbol with the current date required in all web application footers by our bosses. 
+This will produce the copyright symbol with the current date (&copy; 1999) required in all web application footers by our bosses. 
 
 why? i don't know.
