@@ -28,9 +28,9 @@ you're on your own
 In your application's footer add the following
 
 ```
-{{{copyright}}}
+{{{copyright "My Company"}}}
 ```
 
-This will produce the copyright symbol with the current date (&copy; 1999) required in all web application footers by our bosses. 
+This will produce the copyright symbol with the current date and company name (&copy; 1999 My Company) required in all web application footers by our bosses. 
 
 why? i don't know.
