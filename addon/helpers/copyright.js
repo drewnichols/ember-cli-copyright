@@ -1,7 +1,11 @@
 import Ember from 'ember';
 
-export function copyright() {
-  return "&copy; " + new Date().getFullYear();
-}
+export function copyright(value/*, options*/) {
+  if (Ember.isBlank(value)) {
+    value = "";
+  } else {
+    value = " " + value;
+  }
 
-export default Ember.HTMLBars.makeBoundHelper(copyright);
+  return "&copy; " + new Date().getFullYear() + value;
+}
