@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-copyright",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Revolutionary ember-cli addon allowing users to never update their site footer copyright date again.",
   "directories": {
     "doc": "doc",
