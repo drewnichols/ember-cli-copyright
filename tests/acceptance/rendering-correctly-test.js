@@ -19,7 +19,11 @@ test('visiting /', function(assert) {
   visit('/');
 
   andThen(function() {
-    assert.equal(find('span.param').text(),"'© 2015 My Company'");
-    assert.equal(find('span.no-param').text(),"'© 2015 '");
+    assert.equal(find('span.param').text(),"'© " + currentYear() + " My Company'");
+    assert.equal(find('span.no-param').text(),"'© " + currentYear() + " '");
   });
 });
+
+function currentYear() {
+  return new Date().getFullYear();
+}
