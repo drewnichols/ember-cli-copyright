@@ -1,6 +1,10 @@
 import Ember from 'ember';
 
-var copyright = function(value) {
+export function copyright(value) {
+  if (Ember.isArray(value)) {
+    value = value[0];
+  }
+
   if (Ember.isBlank(value)) {
     value = "";
   } else {
