@@ -1,6 +1,10 @@
 import Ember from 'ember';
 
-export function copyright(value/*, options*/) {
+export function copyright(value) {
+  if (Ember.isArray(value)) {
+    value = value[0];
+  }
+
   if (Ember.isBlank(value)) {
     value = "";
   } else {
@@ -9,3 +13,5 @@ export function copyright(value/*, options*/) {
 
   return "&copy; " + new Date().getFullYear() + value;
 }
+
+export default Ember.Helper.helper(copyright);

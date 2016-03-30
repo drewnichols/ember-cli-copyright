@@ -20,7 +20,7 @@ test('visiting /', function(assert) {
 
   andThen(function() {
     assert.equal(find('span.param').text(),"'© " + currentYear() + " My Company'");
-    assert.equal(find('span.no-param').text(),"'© " + currentYear() + " '");
+    assert.equal(find('span.no-param').text(),"'© " + currentYear() + "'");
   });
 });
 
