@@ -2,6 +2,10 @@
 
 ember-cli-copyright is a revolutionary ember-cli addon allowing you to never update the copyright year on your ember cli applications footer again.
 
+## Support
+
+Version 2.4.0 supports Ember 1.13 through 2.4.
+
 ## Installation
 
 The best way to install is to use the ember-cli install command like this. 
