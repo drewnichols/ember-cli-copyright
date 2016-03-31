@@ -1,4 +1,4 @@
-# ember-cli-copyright [![Build Status](https://travis-ci.org/drewnichols/ember-cli-copyright.svg)](https://travis-ci.org/drewnichols/ember-cli-copyright)
+# ember-cli-copyright [![Build Status](https://travis-ci.org/drewnichols/ember-cli-copyright.svg)](https://travis-ci.org/drewnichols/ember-cli-copyright) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-copyright.svg)](http://emberobserver.com/addons/ember-cli-copyright)
 
 ember-cli-copyright is a revolutionary ember-cli addon allowing you to never update the copyright year on your ember cli applications footer again.
 
